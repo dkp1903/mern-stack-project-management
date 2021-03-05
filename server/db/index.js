@@ -1,7 +1,7 @@
 const mongoose = require('mongoose');
 
 mongoose
-    .connect('mongodb://127.0.0.1:27017/chat', { useNewUrlParser: true, useUnifiedTopology: true, })
+    .connect('mongodb+srv://jawan:passforjawan@cluster0.ybepl.mongodb.net/project-management-db?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, })
     .catch(e => {
         console.error('Connection error', e.message);
     });

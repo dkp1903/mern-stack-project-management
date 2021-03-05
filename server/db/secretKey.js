@@ -1,3 +1,3 @@
-const secretKey = "u+,,PrS6>W8{)Mk";
+const secretKey = "Genter5%";
 
 module.exports = secretKey;

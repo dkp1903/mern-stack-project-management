@@ -22,7 +22,7 @@ export const registerUser = (userData: RegisterData, history: any) => (
     .catch((err) => {
       dispatch({
         type: SET_ERRORS,
-        payload: err.response.data,
+        payload: err//.response.data,
       });
     });
 };
@@ -44,7 +44,7 @@ export const loginUser = (userData: LoginData) => (dispatch: any) => {
     .catch((err) => {
       dispatch({
         type: SET_ERRORS,
-        payload: err.response.data,
+        payload: err//.response.data,
       });
     });
 };
